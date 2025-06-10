@@ -1,16 +1,3 @@
-# Ebook_Final: Neo4j GraphRAG Integration
-
-## What is Working Well
-
-- **PDF Loader Script**: Successfully loads PDF data into Neo4j using the GraphRAG pipeline. Node labels and relationships are defined and can be adjusted as needed.
-- **Retriever Script (`Retreivers.py`)**:
-  - Connects to Neo4j AuraDB and OpenAI.
-  - Supports both plain vector search and Cypher-augmented retrieval using the latest `neo4j-graphrag` APIs.
-  - Uses both `VectorRetriever` and `VectorCypherRetriever` for flexible querying.
-  - Returns clear, context-based answers for simple queries (e.g., "What are the top 3 risk factors that Apple faces?").
-- **OpenAI and Neo4j Integration**: Environment variables and API keys are set up and recognized by scripts.
-- **Project Structure**: Scripts are modular and follow modern best practices for GraphRAG workflows.
-
 ## Neo4j GraphRAG Retriever Usage Guide
 
 This project demonstrates how to use Neo4j and GraphRAG for advanced retrieval-augmented generation (RAG) with asset manager and cybersecurity risk data.
